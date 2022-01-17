@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-// import 'package:image/image.dart';
 import 'package:paintproject/ColorClass.dart';
 
 class BottomItem {
@@ -56,12 +55,6 @@ class MenuButtonSecond extends State<MenuBottom> {
               showMyDialog(context, widget.classColor);
             });
           }
-          // else if (widget.bottomItem.text.contains('Label')) {
-          //   print(
-          //       '${widget.classColor.r} ${widget.classColor.g} ${widget.classColor.b}');
-          // } else if (widget.bottomItem.text.contains('Erase')) {
-          //   print('Erase');
-          // }
         },
         child: Column(
           children: [
@@ -80,7 +73,7 @@ class MenuButtonSecond extends State<MenuBottom> {
       context: context,
       builder: (context) {
         return Center(
-          child: Container(
+          child: SizedBox(
             height: 440,
             child: StatefulBuilder(
               builder: (context, setState) {
@@ -208,7 +201,7 @@ class MenuButtonSecond extends State<MenuBottom> {
                   ),
                   actions: <Widget>[
                     Center(
-                      child: Container(
+                      child: SizedBox(
                         height: 45,
                         width: 100,
                         child: ElevatedButton(
