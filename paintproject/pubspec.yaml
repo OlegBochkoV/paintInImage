@@ -34,6 +34,8 @@ dependencies:
   image_picker: ^0.8.4+4
   image_gallery_saver: ^1.5.0
   permission_handler: ^8.3.0
+  path_provider: ^2.0.8
+  flutter_range_slider: "^1.5.0"
   # permisson_handler: ^5.0.1+1
   # permission_handler: ^5.1.0+2
   # The following adds the Cupertino Icons font to your application.
